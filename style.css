@@ -1,0 +1,120 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: rgba(128,128,128,1);
+	
+}
+
+#main {
+	min-height:1000px;
+	width:100%;
+	position: relative;
+}
+#header {
+	height: 100px;
+	width: 100%;
+	background: rgb(50,50,50);
+	border-bottom: 2px solid #12FF42;
+	color: #12FF42;
+}
+#menu {
+	background:  url(img/h1-bg.png);
+	border-bottom: 2px solid #12FF42;
+	width: 100%;
+	height: 70px;
+	color: white;
+	clear: both;	
+}
+#menu div {
+	clear: both;
+}
+#left_panel {
+	float: left;
+	width: 300px;
+	min-height: 750px;
+	background: rgb(128,128,128);
+	color: rgba(18,255,66,0.5);
+}
+#content {
+	min-height: 750px;
+	background: rgb(200,200,200);
+	overflow: hidden;
+	border-left: 2px solid #12FF42;
+}
+
+.tableConteiner {
+	 list-style-type: none;
+	color: rgba(25,255,66,1);
+	font-size: 35px;
+}
+
+.tableConteiner a:before {
+  position: absolute;
+  left: 5px;
+  top: 0;
+  color: white;
+  font-family: 'Inconsolata';
+  transition: all 0.4s ease-in-out;
+}
+.tableConteiner  a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-family: 'Arimo', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: left;
+  padding: 15px 15px 0px 5px;
+  margin-right: 15px;
+  transition: all 0.4s ease-in-out;
+}
+.tableConteiner  a:hover {
+	margin: 20px;
+  	background: rgba(25,255,66,0.7);
+  	color: #333333;
+}
+.tableConteiner a:hover:before {
+  color: #333333;
+}
+
+.active {
+	background: rgba(25,255,66,1);
+	margin: 20px;
+  	color: #333333;
+}
+
+
+#footer {
+	background: rgb(50,50,50);
+	height: 100px;
+	clear: both;
+}
+#table {
+	margin: 40px;
+	 border-collapse: collapse;
+}
+#table td {
+	border: 1px solid;
+	height: 30px;
+	width: 125px;
+
+}
+
+input {
+	background: rgb(200,200,200);
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+
+}
+input:focus {
+	outline: none;
+}
+.normalCell {
+	border: 1px solid black;
+}
+.markedCell {
+	border: 2px green solid #12FF42;
+}
+
